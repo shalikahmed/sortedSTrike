@@ -1,0 +1,99 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    line-height: 75px;
+    font-size: 50px;
+    box-shadow: 0 0 0 2px;
+    margin: auto;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family: Playfair,monospace;
+    text-align: center;
+    box-shadow: 10px  15px 20px black;
+    
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+     width: 225px;
+   
+    
+    
+}
+#timeDisplay{
+    font-size: 30px;
+    color: #40c437;
+    font-family: Playfair,monospace; 
+}
+#timeContainer{
+    text-align:center;
+    border: 3px solid;
+    border-radius:25px;
+    background-color: #222222;
+    width: 500px;
+    
+}
+#score{
+    text-align:center;
+    font-size: 30px;
+    color: #40c437;
+    font-family: Playfair,monospace;
+}
+#scoreContainer{
+    text-align:center;
+    border: 3px solid;
+    border-radius:25px;
+    background-color: #222222;
+
+}
+
+
+ .startBtn{
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    font-family: consolas,monospace; 
+    margin-top: 50px;
+    box-shadow: 10px  15px 20px black;
+    
+    
+}
+#heading{
+   
+    margin: auto;
+    
+}
+#gameContainer{
+    text-align:center;
+    border: 3px solid;
+    border-radius:25px;
+    height: 800px;
+    width: 500px;
+    font-family: Playfair,monospace;
+    background-color:#CBCE91FF
+   
+}
+#actualScore{
+    text-align:center;
+    font-size: 30px;
+    color: #40c437;
+    font-family: Playfair,monospace
+}
+.howtoPlay{
+    width: 100px;
+    height: 40px;
+    border: 3px black;
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    font-family: consolas,monospace; 
+    margin-top: 50px;
+    box-shadow: 10px  15px 20px black;
+}
