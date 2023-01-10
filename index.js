@@ -1,3 +1,4 @@
+
 var a = [];
 while(a.length < 25){
     var r = Math.floor(Math.random() * 25) + 1;
@@ -69,7 +70,10 @@ for (let i = 0; i < elements.length; i++) {
         }
     }
 }
-
+if(elementClicked>=1){
+    var audio = new Audio('audio2.mp3');
+audio.play();
+}
 
    if(elementClicked == elements[index]){
     changeScore()
@@ -147,6 +151,11 @@ function changeScoretoZero(){
     
  }
  startBtn.addEventListener("click",()=>{
+    var audio = new Audio('audio2.mp3');
+audio.play();
+    })
+ startBtn.addEventListener("click",()=>{
+    
     if(paused){
        paused= false;
        startTime=Date.now() - elapsedTime;
@@ -191,12 +200,12 @@ function changeScoretoZero(){
             paused= true;
             elapsedTime= Date.now() - startTime
             clearInterval(intervalId)
+            stopScore=false;
         }
        
     })
 
     resetBtn.addEventListener("click",()=>{
-        
         location.reload();
         })
         
