@@ -90,10 +90,10 @@
 .howtoPlay{
     width: 100px;
     height: 40px;
-    border: 3px black;
+    border: 3px #CBCE91FF ;
     border-radius: 12px;
     background-color: #333333;
-    color: white;
+    color: #CBCE91FF;
     cursor: pointer;
     font-family: consolas,monospace; 
     margin-top: 50px;
