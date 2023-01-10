@@ -4,6 +4,7 @@ while(a.length < 25){
     if(a.indexOf(r) === -1) a.push(r);
 }
 console.log(a);
+
 const startBtn = document.querySelector("#startBtn");
 let startTime=0;
 let elapsedTime=0;
@@ -13,6 +14,7 @@ let intervalId;
 let hrs = 0;
 let mins =0;
 let secs = 0;
+var stopScore= true;
 
 var index=0
 
@@ -42,7 +44,7 @@ const qb= document.getElementById("22").innerHTML= a[22];
 const qn= document.getElementById("23").innerHTML= a[23];
 const qm= document.getElementById("24").innerHTML= a[24];
 
-
+;
 
 
 const cellClicked= document.getElementsByClassName("cell");
@@ -75,7 +77,7 @@ for (let i = 0; i < elements.length; i++) {
     
 
    }
-
+   
   
    }
 
@@ -86,6 +88,7 @@ cell.addEventListener("click",cellPressed)
 
  
  function changeScore(){
+    if(stopScore==true){
     var b = [];
 while(b.length < 25){
     var b1 = Math.floor(Math.random() * 25) + 1;
@@ -118,6 +121,7 @@ const qn= document.getElementById("23").innerHTML= b[23];
 const qm= document.getElementById("24").innerHTML= b[24];
     const scoreBoard = document.getElementById("actualScore");
     var number = scoreBoard.innerHTML
+   
     number++;
      scoreBoard.innerHTML= number;
      index++;
@@ -131,6 +135,7 @@ const qm= document.getElementById("24").innerHTML= b[24];
     
      }
  }
+}
 
 function changeScoretoZero(){
     
@@ -196,13 +201,15 @@ function changeScoretoZero(){
         })
         
 function lostGame(){
+    const scoreBoard = document.getElementById("actualScore");
+    var number = scoreBoard.innerHTML
     timeDisplay.textContent=`YOU LOST!! TRY AGAIN`
     if(!paused){
         paused= true;
         elapsedTime= Date.now() - startTime
         clearInterval(intervalId)
         document.querySelector('#startBtn').disabled = true
-        
+stopScore=false;
         
     }
 
@@ -214,10 +221,6 @@ function wonGame(){
         elapsedTime= Date.now() - startTime
         clearInterval(intervalId)
         document.querySelector('#startBtn').disabled = true
-    //     let timeStop=true;
-    //     startBtn.addEventListener("click",()=>{
-    //         timeDisplay.textContent=`YOU WON!! AND IT TOOK YOU ${hrs}:${mins}:${secs} `
-    //         })
-    // }
+  
 }
 }
