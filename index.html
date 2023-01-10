@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,17 +10,28 @@
     </button></a>
     <a href="howtoplay.html"></a>
     <link rel="stylesheet" href="style.css">
+\
 
+
+    <style>
+
+        body{
+            background-image: url("cat.jpg");
+            background-size: 800px;
+        }
+    </style>
 </head>
 <body style="background-color:white;">
     <div id="gameContainer">
+
+       
         <div id="scoreContainer" style="position:relative; top:-3px;">
             <div id="score" class="score">score:</div>
             <div id="actualScore" class="score">0</div>
 
     </div>
         <h1 id="heading"> sortedSTrike</h1>
-        <div id="cellContainer"  class="cellContainer" style="position:relative; right: -42px; top:-3px">
+        <div id="cellContainer"  class="cellContainer" style="position:relative; right: -52px; top:50px">
         <div id="0" class="cell"></div>
         <div id="1" class="cell"></div>
         <div id="2" class="cell"></div>
@@ -49,9 +59,9 @@
         <div id="24" class="cell"></div>
        
       </div>
-      <h2 style="position:absolute; right: -110px; top:760px">Click on "How to Play" to know the game!</h2>
+    <div style="position:relative; top: 200px;">click on "How to play" to the game and its rules!</div>
         <button id="startBtn" class="startBtn" style="position:relative; top: 40px;">START</button>
-        <button id="finishBtn" class="startBtn"style="position:relative; top: 40px;">Finish</button>
+         <button id="finishBtn" class="startBtn"style="position:relative; top: 40px;">Finish</button> 
         <button id="resetBtn" class="startBtn" style="position:relative; top: 40px;">Replay</button>
         
     </div>
@@ -62,4 +72,6 @@
     <script src="index.js"></script>
 
 </body>
+
+
 </html>
