@@ -88,9 +88,9 @@
     font-family: Playfair,monospace
 }
 .howtoPlay{
-    width: 100px;
-    height: 40px;
-    border: 3px #CBCE91FF ;
+    width: 150px;
+    height: 30px;
+    border: 3px solid;
     border-radius: 12px;
     background-color: #333333;
     color: #CBCE91FF;
@@ -98,4 +98,5 @@
     font-family: consolas,monospace; 
     margin-top: 50px;
     box-shadow: 10px  15px 20px black;
+    
 }
