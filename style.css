@@ -1,3 +1,4 @@
+
 .cell{
     width: 75px;
     height: 75px;
@@ -7,11 +8,12 @@
     box-shadow: 0 0 0 2px;
     margin: auto;
     cursor: pointer;
+    
 }
 #gameContainer{
     font-family: Playfair,monospace;
     text-align: center;
-    box-shadow: 10px  15px 20px black;
+    box-shadow: 10px  15px 30px 20px black;
     
 }
 #cellContainer{
@@ -33,6 +35,7 @@
     border-radius:25px;
     background-color: #222222;
     width: 500px;
+    color:#CBCE91FF
     
 }
 #score{
@@ -46,7 +49,6 @@
     border: 3px solid;
     border-radius:25px;
     background-color: #222222;
-    color: #CBCE91FF;
 
 }
 
@@ -61,7 +63,7 @@
     cursor: pointer;
     font-family: consolas,monospace; 
     margin-top: 50px;
-    box-shadow: 10px  15px 20px black;
+    box-shadow: 3px  3px 10px #CBCE91FF;
     
     
 }
@@ -98,6 +100,69 @@
     cursor: pointer;
     font-family: consolas,monospace; 
     margin-top: 50px;
-    box-shadow: 10px  15px 20px black;
+    box-shadow: 3px  3px 10px #CBCE91FF;
     
+}
+#a
+{
+    box-shadow: -5px -5px 10px #CBCE91FF;
+    border-radius: 25px 00px 00px;
+}
+#f{
+    box-shadow: -5px 0px 10px  #CBCE91FF;
+}
+#k{
+    box-shadow: -5px 0px 10px #CBCE91FF;
+}
+#p{
+    box-shadow: -5px 0px 10px #CBCE91FF;
+}
+#u
+{
+    box-shadow: -5px 5px 10px  #CBCE91FF;
+    border-radius: 00px 00px 00px 25px;
+
+}
+#v
+{
+    box-shadow: 0px 5px 10px  #CBCE91FF;
+}
+#w
+{
+    box-shadow: 0px 5px 10px  #CBCE91FF;
+}
+#x
+{
+    box-shadow: 0px 5px 10px  #CBCE91FF;
+}
+#y
+{
+    box-shadow: 5px 5px 10px  #CBCE91FF;
+    border-radius: 00px 00px 25px 00px;
+}
+
+#e{
+    box-shadow: 5px -5px 10px  #CBCE91FF;
+    border-radius: 00px 25px 00px 00px;
+}
+#j{
+    box-shadow: 5px 0px 10px  #CBCE91FF;
+}
+#o{
+    box-shadow: 5px 0px 10px  #CBCE91FF;
+}
+#t{
+    box-shadow: 5px 0px 10px  #CBCE91FF;
+}
+#b{
+    box-shadow: 0px -5px 10px  #CBCE91FF;
+
+}
+#c{
+    box-shadow: 0px -5px 10px  #CBCE91FF;
+
+}
+#d{
+    box-shadow: 0px -5px 10px  #CBCE91FF;
+
 }
