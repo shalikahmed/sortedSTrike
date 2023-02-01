@@ -180,7 +180,7 @@ audio.play();
         if(secs==19){
             lostGame();
         }
-        else if(number==25 && secs<19){
+        else if(number==25 && secs<=30){
 
             wonGame();
         }
