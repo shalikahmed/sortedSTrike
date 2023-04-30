@@ -13,11 +13,11 @@ This is a game where the goal is to click on the numbers on a 5x5 grid in sequen
 * Click the "Play Again" button to play the game again.
 
 # Additional Features
-*The game keeps track of the player's best score, which is the fastest time they have completed the game.
-*The game includes a timer to record the player's time.
-*The game includes a "Hint" button that highlights the next number the player should click on.
-*The game includes a "Reset" button that allows the player to reset their current game.
-*The game includes a "Mute" button that allows the player to mute/unmute the game sounds.
+* The game keeps track of the player's best score, which is the fastest time they have completed the game.
+* The game includes a timer to record the player's time.
+* The game includes a "Hint" button that highlights the next number the player should click on.
+* The game includes a "Reset" button that allows the player to reset their current game.
+* The game includes a "Mute" button that allows the player to mute/unmute the game sounds.
 
 #Installation
 its completly working and deployed
