@@ -177,9 +177,9 @@ audio.play();
         timeDisplay.textContent=`${hrs}:${mins}:${secs}`
         const scoreBoard = document.getElementById("actualScore");
     var number = scoreBoard.innerHTML
-        if(secs==24){
-            lostGame();
-        }
+       if (elapsedTime >= 28000) {
+    lostGame();
+}
         else if(number==25 && secs<=30){
 
             wonGame();
@@ -233,3 +233,4 @@ function wonGame(){
   
 }
 }
+
